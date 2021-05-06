@@ -1,0 +1,36 @@
+\documentclass{suchem_rp}
+\usepackage{lipsum}
+
+\title{\lipsum[31][1-5]}
+\author{Example Author}
+\date{March 1, 2021}
+
+\begin{document}
+
+\maketitle
+
+\section{Specific aims}
+Here is an example citation.\autocite{example} Here is an example footnote\footnote{This is what a footnote will look like.}---take note that it shows up as a roman numeral to avoid confusion with citations in ACS style.
+
+\lipsum[1-3]
+\begin{enumerate}[label={\bf \arabic*.}]
+    \item \lipsum[4-5]
+    \item \lipsum[6-7]
+    \item \lipsum[8-9]
+\end{enumerate}
+
+\section{Background and significance}
+\lipsum[10-15]
+
+\section{Intellectual merit}
+\lipsum[16-20]
+
+\section{Research approach}
+\lipsum[21-39]
+
+\section{Conclusion}
+\lipsum[41-42]
+
+%%%%%
+\clearpage\printbibliography
+\end{document}
